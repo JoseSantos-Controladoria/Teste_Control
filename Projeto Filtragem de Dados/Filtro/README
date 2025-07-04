@@ -1,0 +1,75 @@
+# Script de Filtragem de Dados em Excel
+# Descrição:
+
+ - Este script Python filtra dados em uma planilha Excel com base em valores fornecidos pelo usuário. Ele lê um arquivo Excel, filtra linhas onde a coluna "APS" contém valores especificados e pode salvar o resultado filtrado em um novo arquivo Excel.
+
+# Funcionalidades:
+
+    Ler Arquivo Excel: O script lê os dados de um arquivo Excel especificado.
+
+    Filtrar Dados: Filtra linhas onde a coluna "APS" contém valores fornecidos.
+
+    Exibir Resultados: Mostra quais valores foram encontrados e quais não foram encontrados.
+
+    Salvar Resultados: Opção para salvar os dados filtrados em um novo arquivo Excel.
+
+# Pré-requisitos: 
+
+    Python:
+
+    -  O script requer Python para execução.
+
+    Biblioteca pandas:
+
+    -  Necessária para manipulação de dados. Instale com o comando:
+    pip install pandas
+
+# Como Usar:
+
+1. Prepare o Arquivo Excel:
+
+        Lembre-se, utilize a planilha "base_aps".
+
+2. O arquivo deve ter uma coluna chamada "APS" com os valores a serem filtrados.
+    
+    . Execute o Script:
+
+3. Salve o código em um arquivo, por exemplo, filtrar_dados.py.
+
+    . Execute o script no terminal ou prompt de comando com:
+            
+            python filtrar_dados.py
+
+    . Forneça as Entradas:
+
+1. Caminho do Arquivo de Entrada:
+            
+         Informe o caminho completo do arquivo Excel.
+
+2. Valores para Filtragem:
+
+         Insira os valores a serem filtrados na coluna "APS", separados por vírgula 
+         (por exemplo, 1, 2, 3).
+
+3. Salvar Arquivo:
+    
+         Indique se deseja salvar o resultado em um novo arquivo Excel (s para sim, n para não).
+
+4. Caminho do Arquivo de Saída:
+    
+         Se optar por salvar, forneça o caminho e nome do arquivo de saída ou deixe em branco para usar o nome padrão planilha_filtrada.xlsx.
+
+5. Saída:
+
+ - O script exibirá:
+
+        Dados Filtrados:
+. Valores fornecidos que foram encontrados na coluna "APS".
+
+
+        Valores Não Encontrados: 
+
+
+. Valores fornecidos que não foram encontrados na coluna "APS".
+
+ - Se optou por salvar o arquivo, ele será criado no caminho especificado.
